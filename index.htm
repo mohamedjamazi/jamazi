@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>fiche d inscription</title>
+</head>
+<body>
+<form onsubmit="return verif()">
+	<p align="center"><b>fiche d'inscription</b></p>
+	<p align="left"><b>nom&amp;prenom * <input id="np" type="text" name="T1" size="20">&nbsp;&nbsp; 
+	C I N * <input id="cin" type="text" name="T2" size="20"></b></p>
+	<p align="left"><b>telephone <input id="tel" type="text" name="T3" size="20">&nbsp;&nbsp; 
+	Email <input id="ema" type="text" name="T4" size="20"></b></p>
+	<p align="left"><b>sexe*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="radio" value="V1" name="R1">Masculin&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="radio" name="R1" value="V2">Feminin</b></p>
+	<p align="left"><b>Modules <select id="m" size="1" name="D1">
+	<option selected>choisir un module</option>
+	<option>HTML</option>
+	<option>JavaScript</option>
+	<option>PHP</option>
+	<option>BD</option>
+	</select>&nbsp; </b></p>
+	<p align="left"><b>Duree*&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="checkbox" id="3" name="C1" value="ON">3jours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="checkbox" id="5" name="C2" value="ON">5jours&nbsp; </b></p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="submit" value="S'incrire" name="B1">
+	<input type="reset" value="Annuler" name="B2">
+	<input type="button" value="Facture" name="B3"></p>
+	<hr>
+	<p><b>Titre&nbsp;&nbsp; <input disabled type="text" name="T5" size="20"></b></p>
+	<p><b>Nom &amp; prenom <input disabled type="text" name="T6" size="20">&nbsp;&nbsp;&nbsp; 
+	Votre code <input disabled type="text" name="T7" size="20"></b></p>
+	<p><b>Formation <input disabled type="text" name="T8" size="20">&nbsp;&nbsp;&nbsp;&nbsp; 
+	Duree <input disabled type="text" name="T9" size="20"></b></p>
+	<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	Montant a payer <input disabled type="text" name="T10" size="20"></b></p>
+</form>
+<script src="source.js"></script>
+</body>
+</html>
